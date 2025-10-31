@@ -1,15 +1,26 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
 body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    background-image: url(/assest/bggoc.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100%;
 }
 .sidebar-top {
+    position: fixed;
     width: 100vw;
-    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .sidebar-left {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .logos {
     position: fixed;
@@ -48,19 +59,76 @@ body {
     background-color: rgb(243, 243, 243);
 }
 .sidebar-center {
-    text-align: center;
-    margin-top: 7px;
-    margin-left: 500px;
     position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 7px;
 }
 #time {
     display: flex;
 }
 .sidebar-right {
-    margin-left: 800px;
     position: fixed;
     margin-top: 7px;
 }
 #date {
     display: flex;
+    position: fixed;
+    right: 60px;
+}
+.wifi {
+    position: fixed;
+    right: 37px;
+}
+#wifi {
+    font-size: 12px;
+}
+.volume {
+    position: fixed;
+    right: 10px;
+}
+#volume {
+    font-size: 12px;
+}
+.taskbar-btn {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#taskbar-open {
+    width: 20px;
+}
+.content-taskbar {
+    width: 400px;
+    height: 350px;
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+#icon-search {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#search-app {
+    width: 200px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);;
+    border-radius: 15px;
+}
+.search-in-app {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+.icon-search {
+    position: fixed;
+    right: 100px;
+    top: 12px;
 }

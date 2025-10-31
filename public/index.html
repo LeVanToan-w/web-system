@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assest/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Web System</title>
 </head>
 <body>
@@ -23,8 +24,31 @@
     
     <div class="sidebar-right">
         <div id="date"></div>
-        <div class="wifi"></div>
+        <div class="wifi"><i class="fa-solid fa-wifi" id="wifi"></i></div>
+        <div class="volume"><i class="fa-solid fa-volume-high" id="volume"></i></div>
     </div>
+    </div>
+    <div class="taskbar">
+        <div class="taskbar-btn">
+        <button id="taskbar-open"></button></div>
+        <div class="content-taskbar">
+            <div class="search-app">
+                <div class="icon-search">
+                <img src="/assest/search-icon.jpg" id="icon-search"></div>
+                <div class="search-in-app">
+                <input type="text" id="search-app" placeholder="Tìm kiếm ứng dụng"></div>
+            </div>
+            <div class="appline">
+                <div class="setting-app">
+                    <div class="icon-setting-app">
+                        <img src="/assest/icon-appsetting.jpg" id="logo-app-setting">
+                    </div>
+                        <div class="openapp-setting">
+                            <button id="open-app-setting"></button>
+                        </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="/public/script.js"></script>
 </body>
