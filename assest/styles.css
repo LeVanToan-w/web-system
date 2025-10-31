@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar-top {
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar-left {
+    margin-left: 10px;
+}
+.logos {
+    position: fixed;
+}
+.element-left {
+    margin-left: 30px;
+    margin-top: 7px;
+    position: fixed;
+}
+#logo {
+    width: 30px;
+    height: 30px;
+}
+#file {
+    margin-left: 10px;
+}
+#edit {
+    margin-left: 10px;
+}
+#window {
+    margin-left: 10px;
+}
+#help {
+    margin-left: 10px;
+}
+#file:hover {
+    background-color: rgb(243, 243, 243);
+}
+#edit:hover {
+    background-color: rgb(243, 243, 243);
+}
+#window:hover {
+    background-color: rgb(243, 243, 243);
+}
+#help:hover {
+    background-color: rgb(243, 243, 243);
+}
