@@ -47,3 +47,12 @@ body {
 #help:hover {
     background-color: rgb(243, 243, 243);
 }
+.sidebar-center {
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 500px;
+    position: fixed;
+}
+#time {
+    display: flex;
+}
