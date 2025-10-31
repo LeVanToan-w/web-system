@@ -56,3 +56,11 @@ body {
 #time {
     display: flex;
 }
+.sidebar-right {
+    margin-left: 800px;
+    position: fixed;
+    margin-top: 7px;
+}
+#date {
+    display: flex;
+}
