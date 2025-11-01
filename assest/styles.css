@@ -100,6 +100,7 @@ body {
     width: 20px;
 }
 .content-taskbar {
+    display: none;
     width: 400px;
     height: 350px;
     position: fixed;
@@ -139,13 +140,16 @@ body {
     position: fixed;
 }
 #logo-app-setting {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    left: 18px;
+    top: 50px;
 }
 #name-app-setting {
     position: fixed;
-    margin-left: -13px;
+    top: 105px;
+    left: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .file-app {
@@ -160,11 +164,9 @@ body {
     margin-left: 90px;
 }
 #name-app-file {
-    margin-left: 103px;
+    position: fixed;
+    margin-left: 77px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#taskbar-open:focus + .content-taskbar {
-    display: block;
 }
 .content-appsetting {
     border: 1px solid black;
@@ -175,7 +177,8 @@ body {
     position: fixed;
     left:  50%;
     transform: translateX(-50%);
-    top: 30px;
+    top: 50%;
+    display: none;
 }
 .header-app-setting {
     border-top-left-radius: 15px;
@@ -231,4 +234,104 @@ body {
     top: 180px;
     font-size: 20px;
     left: 16px;
+}
+.bufer-zone {
+    position: fixed;
+    left: 200px;
+    width: 0px;
+    height: 415px;
+    border: 1px solid rgb(196, 191, 191);
+}
+.person-user {
+    top: 70px;
+    border: 2px solid black;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    position: fixed;
+    right: 200px;
+}
+.head-user {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    right: 225px;
+    top: 80px;
+}
+.body-user {
+    border: 2px solid black;
+    width: 60px;
+    height: 21px;
+    right: 210px;
+    position: fixed;
+    top: 113px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+}
+.infor-content {
+    position: fixed;
+    right: 210px;
+    top: 150px;
+}
+#name-system {
+    position: fixed;
+    right: 270px;
+}
+#vnos {
+    position: fixed;
+    right: 180px;
+    top: 155px;
+}
+#version {
+    position: fixed;
+    right: 295px;
+    top: 190px;
+}
+#vnos-version {
+    position: fixed;
+    right: 158px;
+    top: 195px;
+}
+#name-device {
+    position: fixed;
+    right: 282px;
+    top: 228px;
+}
+#vnos-name-device {
+    position: fixed;
+    right: 70px;
+    top: 233px;    
+}
+#chip {
+    position: fixed;
+    right: 330px;
+    top: 270px;
+}
+#vnos-chip {
+    position: fixed;
+    right: 195px;
+    top: 275px;
+}
+#cpu {
+    position: fixed;
+    right: 334px;
+    top: 310px;
+}
+#vnos-cpu {
+    position: fixed;
+    right: 110px;
+    top: 315px;
+}
+#ram {
+    position: fixed;
+    right: 330px;
+    top: 350px;
+}
+#vnos-ram {
+    position: fixed;
+    right: 104px;
+    top: 354px;
 }

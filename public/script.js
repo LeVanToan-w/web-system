@@ -17,3 +17,38 @@ function date() {
 }
 setInterval(date, 1000);
 date();
+
+function openTaskbar() {
+    document.addEventListener("DOMContentLoaded", function () {
+        const openTask = document.getElementById("taskbar-open");
+        const contentTask = document.querySelector(".content-taskbar");
+        const setting = document.getElementById("logo-app-setting");
+
+        openTask.addEventListener("click", () => {
+            contentTask.style.display = "block";
+        });
+        setting.addEventListener("click", () => {
+            contentTask.style.display = "none";
+        });
+    });
+};
+openTaskbar();
+
+function AppSetting() {
+    document.addEventListener("DOMContentLoaded", function () {
+    const openApp = document.getElementById("logo-app-setting");
+    const contentApp = document.querySelector(".content-appsetting");
+    const closeApp = document.getElementById("close-appsetting");
+  
+    // Khi nhấn nút mở app
+    openApp.addEventListener("click", () => {
+      contentApp.style.display = "block";
+    });
+  
+    // Khi nhấn nút đóng
+    closeApp.addEventListener("click", () => {
+      contentApp.style.display = "none";
+    });
+  });
+};
+AppSetting();
