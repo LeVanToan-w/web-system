@@ -38,6 +38,30 @@ function filesidebar() {
 };
 filesidebar();
 
+function logo() {
+    document.addEventListener("DOMContentLoaded", function () {
+        const openM = document.getElementById("logo");
+        const fc = document.querySelector(".content-logo");
+        const sl = document.getElementById("sleep");
+        const rs = document.getElementById("restart");
+        const sd = document.getElementById("shutdown");
+
+        openM.addEventListener("click", () => {
+            fc.style.display = "block";
+        });
+        sl.addEventListener("click", () => {
+            fc.style.display = "none";
+        });
+        rs.addEventListener("click", () => {
+            fc.style.display = "none";
+        });
+        sd.addEventListener("click", () => {
+            fc.style.display = "none";
+        });
+    });
+};
+logo();
+
 function openTaskbar() {
     document.addEventListener("DOMContentLoaded", function () {
         const openTask = document.getElementById("taskbar-open");

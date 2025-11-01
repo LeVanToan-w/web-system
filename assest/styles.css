@@ -367,3 +367,44 @@ body {
     border-radius: 15px;
     color: black;
 }
+.content-logo {
+    position: fixed;
+    top: 30px;
+    border: 1px solid rgb(216, 194, 194);
+    background-color: rgb(160, 150, 150);
+    color: white;
+    width: 75px;
+    height: 70px;
+    left: 18px;
+    border-radius: 15px;
+    display: none;
+}
+#sleep {
+    position: fixed;
+    left: 25px;
+}
+#restart {
+    position: fixed;
+    top: 55px;
+    left: 25px;
+}
+#shutdown {
+    position: fixed;
+    top:  80px;
+    left: 25px;
+}
+#sleep:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
+}
+#restart:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
+}
+#shutdown:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
+}
