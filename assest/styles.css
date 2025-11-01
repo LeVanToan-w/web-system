@@ -167,7 +167,8 @@ body {
     display: block;
 }
 .content-appsetting {
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 15px;
     width: 700px;
     height: 450px;
     margin-top: -200px;
@@ -175,8 +176,59 @@ body {
     left:  50%;
     transform: translateX(-50%);
     top: 30px;
-    display: none;
 }
-#logo-app-setting:target + .content-appsetting {
-    display: block;
+.header-app-setting {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1x solid white;
+    height: 30px;
+    background-color: rgba(56, 51, 51, 0.3);
+    color: white;
+}
+#header-appsetting {
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+}
+.close-zoom-turnoff-appsetting {
+    position: fixed;
+    right: 10px;
+}
+#close-appsetting {
+    margin-right: 5px;
+}
+#zoom-appsetting {
+    margin-right: 5px;
+}
+.element-appsetting {
+    color: white;
+    position: fixed;
+    background-color: rgb(40, 40, 40, 0.4);
+    width: 700px;
+    height:420px;
+}
+#infor {
+    position: fixed;
+    left: 10px;
+    font-size: 20px;
+    top: 35px;
+}
+#wifisetting {
+    position: fixed;
+    top: 80px;
+    font-size: 20px;
+    left: 14px;
+}
+#bluetoothsetting {
+    position: fixed;
+    top: 130px;
+    font-size: 20px;
+    left: 15px;
+}
+#colorsetting {
+    position: fixed;
+    top: 180px;
+    font-size: 20px;
+    left: 16px;
 }
