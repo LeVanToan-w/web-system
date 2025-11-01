@@ -335,3 +335,35 @@ body {
     right: 104px;
     top: 354px;
 }
+.file-sidebar-content {
+    position: fixed;
+    top: 25px;
+    left: 55px;
+    border: 1px solid rgb(201, 195, 195);
+    width: 85px;
+    height: 50px;
+    background-color: rgb(160, 150, 150);
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
+#create-newfile {
+    position: fixed;
+    top: 30px;
+    left: 58px;
+}
+#openfile {
+    position: fixed;
+    top: 55px;
+    left: 59px;
+}
+#create-newfile:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
+}
+#openfile:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
+}

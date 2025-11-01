@@ -18,6 +18,26 @@ function date() {
 setInterval(date, 1000);
 date();
 
+function filesidebar() {
+    document.addEventListener("DOMContentLoaded", function () {
+        const openFile = document.getElementById("file");
+        const fc = document.querySelector(".file-sidebar-content");
+        const cr = document.getElementById("create-newfile");
+        const o = document.getElementById("openfile");
+
+        openFile.addEventListener("click", () => {
+            fc.style.display = "block";
+        });
+        cr.addEventListener("click", () => {
+            fc.style.display = "none";
+        });
+        o.addEventListener("click", () => {
+            fc.style.display = "none";
+        });
+    });
+};
+filesidebar();
+
 function openTaskbar() {
     document.addEventListener("DOMContentLoaded", function () {
         const openTask = document.getElementById("taskbar-open");
