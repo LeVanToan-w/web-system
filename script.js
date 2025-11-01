@@ -62,6 +62,18 @@ function logo() {
 };
 logo();
 
+function editVolume() {
+    document.addEventListener("DOMContentLoaded", function () {
+        const openS = document.getElementById("volume");
+        const e = document.querySelector(".editsound");
+
+        openS.addEventListener("click", () => {
+            e.style.display = "block";
+        });
+    });
+};
+editVolume();
+
 function openTaskbar() {
     document.addEventListener("DOMContentLoaded", function () {
         const openTask = document.getElementById("taskbar-open");

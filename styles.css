@@ -9,7 +9,7 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    background-image: url(/assest/bggoc.jpg);
+    background-image: url(bggoc.jpg);
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: 100%;
@@ -407,4 +407,24 @@ body {
     background-color: antiquewhite;
     border-radius: 15px;
     color: black;
+}
+.edit-sound {
+    position: fixed;
+    right: 7px;
+    top: 30px;
+    width: 200px;
+    display: none;
+}
+#volume-low {
+    position: fixed;
+    right: 170px;
+}
+#edit-volume {
+    position: fixed;
+    right: 30px;
+    top: 28px;
+}
+#volume-high {
+    position: fixed;
+    right: 8px;
 }
